@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+.Header {
+  align-items: center;
+  color: $grey_ab;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  width: 100%;
+}
+
+.HeaderMainText {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}

@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["react-app"],
+  "rules": {
+    "semi": "error",
+    "import/no-unresolved": "error",
+    "indent": ["error", 2]
+  }
+}

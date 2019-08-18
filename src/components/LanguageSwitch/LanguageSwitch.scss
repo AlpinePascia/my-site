@@ -1,0 +1,17 @@
+.LanguageSwitch {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.LanguageLink {
+  &.active {
+    color: pink;
+    cursor: pointer;
+  }
+}
+
+.Divider {
+  margin: 0 4px;
+}

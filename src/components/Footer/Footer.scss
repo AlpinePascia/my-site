@@ -1,0 +1,26 @@
+@import '../../styles/vars';
+
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FooterSection {
+  background-color: $grey_ef;
+  color: $grey_ab;
+  display: flex;
+  flex-basis: 100%;
+  padding: 12px;
+
+  @media(min-width: tablet) {
+    flex-basis: 50%;
+  }
+}
+
+.LinksLabel {
+  margin-right: 18px;
+}
+
+.Divider {
+  padding: 0 6px;
+}

@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './LanguageSwitch.scss';
 import { useTranslation } from 'react-i18next';
 
 
 const LanguageSwitch = () => {
   const { i18n } = useTranslation();
+
+  useEffect(() => {
+    if (i18n.language === 'en') {
+      document.title = 'Alexey Khodov';
+    } else if (i18n.language === 'ru') {
+      document.title = 'Алексей Ходов';
+    }
+  }, [i18n.language]);
 
   return (
     <div className="LanguageSwitch">

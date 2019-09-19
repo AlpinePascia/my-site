@@ -2,7 +2,7 @@
   "name": "my-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alpinepascia.github.io/my-site/",
+  "homepage": "http://xodov.dev/",
   "dependencies": {
     "babel-eslint": "^10.0.2",
     "eslint-config-react-app": "^5.0.1",

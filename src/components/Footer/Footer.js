@@ -8,13 +8,14 @@ const Footer = () => {
   return (
     <footer className="Footer">
       <div className="FooterSection Links">
-        <div className="LinksLabel"> Links: </div>
+        <div className="FooterSectionLabel"> Links: </div>
         <a href="https://github.com/alpinepascia">Github</a>
         {/* <div className="Divider"> / </div>
         <a href="https://hh.ru">Head Hunter</a> */}
       </div>
       <div className="FooterSection LastUpdated">
-        Last updated: {new Date(updated).toLocaleDateString()}
+        <div className="FooterSectionLabel">Last updated: </div>
+        {new Date(updated).toLocaleDateString()}
       </div>
     </footer>
   );

@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "http://xodov.dev/",
   "dependencies": {
-    "babel-eslint": "^10.0.2",
     "eslint-config-react-app": "^5.0.1",
     "i18next": "^17.0.16",
     "node-sass": "^4.12.0",

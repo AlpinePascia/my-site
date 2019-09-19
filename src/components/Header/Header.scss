@@ -2,7 +2,7 @@
 
 .Header {
   align-items: center;
-  color: $grey_ab;
+  color: $light_slate_grey;
   display: flex;
   justify-content: space-between;
   padding: 12px;
@@ -10,6 +10,7 @@
 }
 
 .HeaderMainText {
-  font-size: 1.4rem;
+  color: $black;
+  font-size: 1.25rem;
   letter-spacing: 0.1rem;
 }

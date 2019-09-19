@@ -1,16 +1,22 @@
 @import '../../styles/vars';
 
 .Footer {
+  background-color: $grey_fb;
+  // border-top: 1px solid $grey_dc;
   display: flex;
   flex-wrap: wrap;
+  padding: 0.75rem;
 }
 
 .FooterSection {
-  background-color: $grey_ef;
-  color: $grey_ab;
+  color: $light_slate_grey;
   display: flex;
   flex-basis: 100%;
-  padding: 12px;
+  margin-bottom: 0.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   @media(min-width: tablet) {
     flex-basis: 50%;
@@ -18,7 +24,7 @@
 }
 
 .LinksLabel {
-  margin-right: 18px;
+  margin-right: 0.625rem;
 }
 
 .Divider {

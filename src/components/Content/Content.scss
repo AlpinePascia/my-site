@@ -11,21 +11,25 @@
 }
 
 .Content {
-  color: $grey_ab;
   display: flex;
   flex-grow: 1;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 0.75rem;
   text-align: center;
 }
 
 .UnderConstruction {
-  font-size: 34px;
+  background: linear-gradient(180deg, rgba(63, 0, 216, 0.51) -6%, rgba(0, 255, 184, 0.77) 39%, #ffe10559 96%);
+  color: $white;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  text-transform: uppercase;
 }
 
 .UnderConstructionTextWrapper {
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .Crane {

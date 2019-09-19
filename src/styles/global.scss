@@ -7,10 +7,10 @@
 }
 
 html {
-  font-family: 'Roboto', -apple-system, sans-serif;
+  font-family: -apple-system, 'Roboto', sans-serif;
   font-size: 5vw;
 
-  @media(min-width: $tablet) {
+  @media(min-width: $phablet) {
     font-size: 20.7px;
   }
 }
@@ -25,4 +25,6 @@ a {
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: $tablet;
 }

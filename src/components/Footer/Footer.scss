@@ -7,6 +7,10 @@
   flex-wrap: wrap;
   font-size: 0.875rem;
   padding: 0.75rem;
+
+  @media(min-width: $tablet) {
+    justify-content: space-between;
+  }
 }
 
 .FooterSection {
@@ -19,8 +23,9 @@
     margin-bottom: 0;
   }
 
-  @media(min-width: tablet) {
-    flex-basis: 50%;
+  @media(min-width: $tablet) {
+    flex-basis: auto;
+    margin-bottom: 0;
   }
 }
 

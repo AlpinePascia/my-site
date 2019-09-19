@@ -6,9 +6,10 @@
 }
 
 .LanguageLink {
+  cursor: pointer;
   &.active {
     color: pink;
-    cursor: pointer;
+    cursor: default;
   }
 }
 

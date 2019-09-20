@@ -8,9 +8,9 @@ const LanguageSwitch = () => {
 
   useEffect(() => {
     if (i18n.language === 'en') {
-      document.title = 'Alexey Khodov';
+      document.title = 'kotiki';
     } else if (i18n.language === 'ru') {
-      document.title = 'Алексей Ходов';
+      document.title = 'котики';
     }
   }, [i18n.language]);
 
@@ -21,7 +21,7 @@ const LanguageSwitch = () => {
         onClick={() => i18n.changeLanguage('en')}>
         En
       </div>
-      <div className="Divider">|</div>
+      <div className="LanguageLinkDivider">|</div>
       <div
         className={`LanguageLink${ i18n.language === 'ru' ? ' active' : ''}`}
         onClick={() => i18n.changeLanguage('ru')}>

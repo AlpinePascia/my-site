@@ -2,9 +2,7 @@
 
 .LanguageSwitch {
   display: flex;
-  font-size: 1.125rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 1.25rem;
 }
 
 .LanguageLink {
@@ -16,6 +14,6 @@
   }
 }
 
-.Divider {
-  margin: 0 0.125rem;
+.LanguageLinkDivider {
+  margin: 0 0.25rem;
 }

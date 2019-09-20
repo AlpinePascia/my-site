@@ -13,7 +13,7 @@ const resources = {
     translation: {
       'Alexey Khodov': 'Алексей Ходов',
       'Links': 'Ссылки',
-      'Last Updated': 'ОБновлено',
+      'Last Updated': 'Обновлено',
     },
   },
 };

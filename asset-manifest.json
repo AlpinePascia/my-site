@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e150aeb3.chunk.css",
-    "main.js": "/static/js/main.4f7eba3c.chunk.js",
-    "main.js.map": "/static/js/main.4f7eba3c.chunk.js.map",
+    "main.js": "/static/js/main.c654ae80.chunk.js",
+    "main.js.map": "/static/js/main.c654ae80.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31cd266e.js",
     "runtime-main.js.map": "/static/js/runtime-main.31cd266e.js.map",
     "static/js/2.91195a69.chunk.js": "/static/js/2.91195a69.chunk.js",
     "static/js/2.91195a69.chunk.js.map": "/static/js/2.91195a69.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad17241dfa5c4d07f711002c5e8f6257.js": "/precache-manifest.ad17241dfa5c4d07f711002c5e8f6257.js",
+    "precache-manifest.382dd3c3d65bf00326608a70a8cd7cb0.js": "/precache-manifest.382dd3c3d65bf00326608a70a8cd7cb0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e150aeb3.chunk.css.map": "/static/css/main.e150aeb3.chunk.css.map",
     "static/media/profile-pic-2.jpeg": "/static/media/profile-pic-2.7ec11e14.jpeg"

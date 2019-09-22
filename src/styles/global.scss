@@ -27,4 +27,8 @@ a {
   justify-content: space-between;
   margin: 0 auto;
   max-width: $tablet;
+
+  &.theme-dark {
+    background-color: $midnight-blue;
+  }
 }

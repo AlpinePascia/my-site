@@ -20,7 +20,12 @@ a {
   text-decoration: none;
 }
 
+#root {
+  background-color: $midnight-blue;
+}
+
 .App {
+  background-color: $white;
   display: flex;
   height: 100vh;
   flex-direction: column;

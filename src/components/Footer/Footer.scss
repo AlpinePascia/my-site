@@ -13,7 +13,8 @@
   background-color: $dark-blue-grey;
 }
 
-.theme-dark .FooterLink {
+.FooterLink {
+  background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
   height: 2.25rem;
@@ -21,7 +22,7 @@
   width: 2.25rem;
 
   &.Github {
-    background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
+    background-image: url('../../media/GitHub-Mark-120px-plus.png');
   }
 
   &.Telegram {
@@ -29,10 +30,18 @@
   }
 }
 
+.theme-dark .FooterLink.Github {
+  background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
+}
+
 .FooterSection {
   align-items: center;
-  color: $super-light-slate-grey;
+  color: $light_slate_grey;
   display: flex;
+}
+
+.theme-dark .FooterSection {
+  color: $super-light-slate-grey;
 }
 
 .FooterSectionLabel {

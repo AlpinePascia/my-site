@@ -2,7 +2,7 @@
 
 .LanguageSwitch {
   display: flex;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .LanguageLink {
@@ -15,7 +15,7 @@
 }
 
 .theme-dark .LanguageLink.active {
-  color: $peachy-orange;
+  color: $aqua-blue;
 }
 
 .LanguageLinkDivider {

@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="Footer">
       <div className="FooterSection Links">
         <a className="FooterLink Github" href="https://github.com/alpinepascia">Github</a>
-        <a className="FooterLink Telegram" href="https://github.com/alpinepascia">Telegram</a>
+        <a className="FooterLink Telegram" href="https://t.me/a_xodov">Telegram</a>
       </div>
       <div className="FooterSection LastUpdated">
         <div className="FooterSectionLabel">{t('Last Updated')}: </div>

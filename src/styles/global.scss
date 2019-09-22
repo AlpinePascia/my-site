@@ -16,15 +16,10 @@ html {
 }
 
 a {
-  color: $pink;
+  color: $deep-blue;
   text-decoration: none;
 }
 
-.App {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: $tablet;
+.theme-dark a {
+  color: $aqua-blue;
 }

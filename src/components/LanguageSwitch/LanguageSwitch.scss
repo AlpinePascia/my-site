@@ -2,16 +2,20 @@
 
 .LanguageSwitch {
   display: flex;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .LanguageLink {
   cursor: pointer;
   
   &.active {
-    color: $pink;
+    color: $deep-blue;
     cursor: default;
   }
+}
+
+.theme-dark .LanguageLink.active {
+  color: $aqua-blue;
 }
 
 .LanguageLinkDivider {

@@ -2,31 +2,51 @@
 
 .Footer {
   background-color: $grey_fb;
-  // border-top: 1px solid $grey_dc;
+}
+
+.theme-dark .Footer {
+  background-color: $dark-blue-grey;
+}
+
+.FooterContent {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.875rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $tablet;
   padding: 0.75rem;
+}
 
-  @media(min-width: $tablet) {
-    justify-content: space-between;
+.FooterLink {
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  height: 2.25rem;
+  margin-right: 1.25rem;
+  width: 2.25rem;
+
+  &.Github {
+    background-image: url('../../media/GitHub-Mark-120px-plus.png');
+  }
+
+  &.Telegram {
+    background-image: url('../../media/t_logo.png');
   }
 }
 
+.theme-dark .FooterLink.Github {
+  background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
+}
+
 .FooterSection {
+  align-items: center;
   color: $light_slate_grey;
   display: flex;
-  flex-basis: 100%;
-  margin-bottom: 0.75rem;
+}
 
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  @media(min-width: $tablet) {
-    flex-basis: auto;
-    margin-bottom: 0;
-  }
+.theme-dark .FooterSection {
+  color: $super-light-slate-grey;
 }
 
 .FooterSectionLabel {

@@ -9,8 +9,16 @@
   width: 100%;
 }
 
+.theme-dark .Header {
+  color: $white;
+}
+
 .HeaderMainText {
   color: $black;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   letter-spacing: 0.1rem;
+}
+
+.theme-dark .HeaderMainText {
+  color: $white;
 }

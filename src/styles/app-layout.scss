@@ -1,0 +1,36 @@
+@import './vars';
+
+#root {
+  background-color: $midnight-blue;
+}
+
+.App {
+  background-color: $white;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  &.theme-dark {
+    background-color: $midnight-blue;
+  }
+}
+
+.Layout {
+  background-color: $white;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.theme-dark .Layout {
+  background-color: $midnight-blue;
+}
+
+.Header,
+.Main {
+  margin: 0 auto;
+  max-width: $tablet;
+}

@@ -6,13 +6,13 @@ import { useTranslation } from 'react-i18next';
 const LanguageSwitch = () => {
   const { i18n } = useTranslation();
 
-  useEffect(() => {
-    if (i18n.language === 'en') {
-      document.title = 'kotiki';
-    } else if (i18n.language === 'ru') {
-      document.title = 'котики';
-    }
-  }, [i18n.language]);
+  // useEffect(() => {
+  //   if (i18n.language === 'en') {
+  //     document.title = 'kotiki';
+  //   } else if (i18n.language === 'ru') {
+  //     document.title = 'котики';
+  //   }
+  // }, [i18n.language]);
 
   return (
     <div className="LanguageSwitch">

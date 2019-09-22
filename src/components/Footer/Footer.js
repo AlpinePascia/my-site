@@ -10,15 +10,15 @@ const Footer = () => {
 
   return (
     <footer className="Footer">
-      <div className="FooterSection Links">
-        <div className="FooterSectionLabel"> {t('Links')}: </div>
-        <a href="https://github.com/alpinepascia">Github</a>
-        {/* <div className="Divider"> / </div>
-        <a href="https://hh.ru">Head Hunter</a> */}
-      </div>
-      <div className="FooterSection LastUpdated">
-        <div className="FooterSectionLabel">{t('Last Updated')}: </div>
-        {new Date(updated).toLocaleDateString(i18n.language)}
+      <div className="FooterContent">
+        <div className="FooterSection Links">
+          <a className="FooterLink Github" href="https://github.com/alpinepascia">Github</a>
+          <a className="FooterLink Telegram" href="https://t.me/a_xodov">Telegram</a>
+        </div>
+        <div className="FooterSection LastUpdated">
+          <div className="FooterSectionLabel">{t('Last Updated')}: </div>
+          {new Date(updated).toLocaleDateString(i18n.language)}
+        </div>
       </div>
     </footer>
   );

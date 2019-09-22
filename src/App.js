@@ -1,15 +1,18 @@
 import React from 'react';
 import './styles/global.scss';
+import './styles/app-layout.scss';
 import Header from './components/Header';
-import Content from './components/Content';
+import Main from './components/Main';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Content />
-      <Footer />
+    <div className="App theme-dark">
+      <div className="Layout">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import './Content.scss';
+import './Main.scss';
 
-const Content = () => {
+const Main = () => {
   return (
-    <main className="Content">
+    <main className="Main">
       <div className="UnderConstruction">
         <div className="UnderConstructionTextWrapper"><div className="UnderConstructionText">Under construction</div></div>
         <div className="Crane">&nbsp;🏗</div>
@@ -13,4 +13,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Main;

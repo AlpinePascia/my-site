@@ -16,24 +16,10 @@ html {
 }
 
 a {
-  color: $pink;
+  color: $deep-blue;
   text-decoration: none;
 }
 
-#root {
-  background-color: $midnight-blue;
-}
-
-.App {
-  background-color: $white;
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: $tablet;
-
-  &.theme-dark {
-    background-color: $midnight-blue;
-  }
+.theme-dark a {
+  color: $aqua-blue;
 }

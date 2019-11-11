@@ -1,4 +1,24 @@
+.ProfileImgContainer {
+  height: 3.375rem;
+  width: 3.375rem;
+}
+
 .ProfileImg {
   border-radius: 50%;
-  max-width: 3.375rem;
+  object-fit: cover;
+  object-position: 0 -0.67rem;
+  // transition: width 2s ease, height 2s ease;
+  height: 3.375rem;
+  width: 3.375rem;
+
+  &.full-screen {
+    border-radius: 0;
+    height: 100vh;
+    left: 0;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+  }
 }

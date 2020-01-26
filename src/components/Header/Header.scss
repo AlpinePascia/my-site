@@ -2,7 +2,7 @@
 
 .Header {
   align-items: center;
-  color: $light_slate_grey;
+  color: $white;
   display: flex;
   height: 4.5rem;
   justify-content: space-between;
@@ -10,16 +10,16 @@
   width: 100%;
 }
 
-.theme-dark .Header {
-  color: $white;
+.theme-light .Header {
+  color: $light_slate_grey;
 }
 
 .HeaderMainText {
-  color: $black;
+  color: $white;
   font-size: 1.125rem;
   letter-spacing: 0.1rem;
 }
 
-.theme-dark .HeaderMainText {
-  color: $white;
+.theme-light .HeaderMainText {
+  color: $black;
 }

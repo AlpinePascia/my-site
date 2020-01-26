@@ -5,28 +5,28 @@
 }
 
 .App {
-  background-color: $white;
+  background-color: $midnight-blue;
   display: flex;
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-
-
-  &.theme-dark {
-    background-color: $midnight-blue;
+  
+  
+  &.theme-light {
+    background-color: $white;
   }
 }
 
 .Layout {
-  background-color: $white;
+  background-color: $midnight-blue;
   display: flex;
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.theme-dark .Layout {
-  background-color: $midnight-blue;
+.theme-light .Layout {
+  background-color: $white;
 }
 
 .Header,

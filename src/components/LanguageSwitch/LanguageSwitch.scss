@@ -9,13 +9,13 @@
   cursor: pointer;
   
   &.active {
-    color: $deep-blue;
+    color: $aqua-blue;
     cursor: default;
   }
 }
 
-.theme-dark .LanguageLink.active {
-  color: $aqua-blue;
+.theme-light .LanguageLink.active {
+  color: $deep-blue;
 }
 
 .LanguageLinkDivider {

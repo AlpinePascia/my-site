@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App theme-dark">
+    <div className="App">
       <div className="Layout">
         <Header />
         <Main />

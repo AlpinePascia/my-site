@@ -1,11 +1,11 @@
 @import '../../styles/vars';
 
 .Footer {
-  background-color: $grey_fb;
+  background-color: $dark-blue-grey;
 }
 
-.theme-dark .Footer {
-  background-color: $dark-blue-grey;
+.theme-light .Footer {
+  background-color: $grey_fb;
 }
 
 .FooterContent {
@@ -27,26 +27,26 @@
   width: 2.25rem;
 
   &.Github {
-    background-image: url('../../media/GitHub-Mark-120px-plus.png');
+    background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
   }
-
+  
   &.Telegram {
     background-image: url('../../media/t_logo.png');
   }
 }
 
-.theme-dark .FooterLink.Github {
-  background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
+.theme-light .FooterLink.Github {
+  background-image: url('../../media/GitHub-Mark-120px-plus.png');
 }
 
 .FooterSection {
   align-items: center;
-  color: $light_slate_grey;
+  color: $super-light-slate-grey;
   display: flex;
 }
 
-.theme-dark .FooterSection {
-  color: $super-light-slate-grey;
+.theme-light .FooterSection {
+  color: $light_slate_grey;
 }
 
 .FooterSectionLabel {

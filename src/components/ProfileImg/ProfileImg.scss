@@ -1,24 +1,35 @@
+@import '../../styles/vars.scss';
+
 .ProfileImgContainer {
+  border-radius: 50%;
   height: 3.375rem;
+  overflow: hidden;
   width: 3.375rem;
 }
 
-.ProfileImg {
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: 0 -0.67rem;
-  // transition: width 2s ease, height 2s ease;
-  height: 3.375rem;
-  width: 3.375rem;
+.FullScreenContainer {
+  align-items: center;
+  background: $backdrop;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
 
-  &.full-screen {
-    border-radius: 0;
-    height: 100vh;
-    left: 0;
-    object-position: center;
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    z-index: 10;
+.ProfileImg {
+  height: auto;
+  object-position: 0 -0.4rem;
+  max-width: 100%;
+}
+
+.FullScreenContainer .ProfileImg {
+  object-position: unset;
+  
+  @media(min-width: $desktop) {
+    height: 100%;
   }
 }

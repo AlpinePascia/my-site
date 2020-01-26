@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import profilePic from '../../media/profile-pic-2.jpeg';
-import './ProfileImg.scss';
+import { root, img, fullScreenContainer } from './ProfileImg.module.scss';
 import FadeInOut from '../../transitions/FadeInOut';
 
 const ProfileImg = () => {
   const [isFullScreen, setIsFullScreen] = useState(false);
 
   return (
-    <div className="ProfileImgContainer">
-      <img className="ProfileImg"
+    <div className={root}>
+      <img className={img}
         src={profilePic} alt="Alex Xodov"
         onClick={() => setIsFullScreen(true)}
       />
       <FadeInOut toggle={isFullScreen}
-        className="FullScreenContainer"
+        className={fullScreenContainer}
         onClick={() => setIsFullScreen(false)}>
-        <img className="ProfileImg"
+        <img className={img}
           src={profilePic} alt="Alex Xodov"
         />
       </FadeInOut>

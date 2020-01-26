@@ -1,21 +1,22 @@
-import React, { useEffect } from 'react';
-import './LanguageSwitch.scss';
+import React from 'react';
+import { root, link, active, divider } from './LanguageSwitch.module.scss';
 import { useTranslation } from 'react-i18next';
+import join from 'classnames';
 
 
 const LanguageSwitch = () => {
   const { i18n } = useTranslation();
 
   return (
-    <div className="LanguageSwitch">
+    <div className={root}>
       <div
-        className={`LanguageLink${ i18n.language === 'ru' ? ' active' : ''}`}
+        className={join(link, { [active]: i18n.language === 'ru' })}
         onClick={() => i18n.changeLanguage('ru')}>
         Ru
       </div>
-      <div className="LanguageLinkDivider">|</div>
+      <div className={divider}>|</div>
       <div
-        className={`LanguageLink${ i18n.language === 'en' ? ' active' : ''}`}
+        className={join(link, { [active]: i18n.language === 'en' })}
         onClick={() => i18n.changeLanguage('en')}>
         En
       </div>

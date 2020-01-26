@@ -1,0 +1,13 @@
+@import '../../styles/vars.scss';
+
+.root {
+  background-color: $midnight-blue;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// .theme-light .Layout {
+//   background-color: $white;
+// }

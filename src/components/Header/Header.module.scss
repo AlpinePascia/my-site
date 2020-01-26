@@ -1,25 +1,30 @@
 @import '../../styles/vars';
 
-.Header {
+.root {
   align-items: center;
   color: $white;
   display: flex;
   height: 4.5rem;
   justify-content: space-between;
+  max-width: $tablet;
   padding: 0.75rem;
   width: 100%;
+
+  @media (min-width: $tablet) {
+    margin: 0 auto;
+  }
 }
 
-.theme-light .Header {
-  color: $light_slate_grey;
-}
+// .theme-light .Header {
+//   color: $light_slate_grey;
+// }
 
-.HeaderMainText {
+.mainText {
   color: $white;
   font-size: 1.125rem;
   letter-spacing: 0.1rem;
 }
 
-.theme-light .HeaderMainText {
-  color: $black;
-}
+// .theme-light .HeaderMainText {
+//   color: $black;
+// }

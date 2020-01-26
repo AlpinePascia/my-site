@@ -1,18 +1,15 @@
 import React from 'react';
 import './styles/global.scss';
-import './styles/app-layout.scss';
-import Header from './components/Header';
+import Layout from './components/Layout';
 import Main from './components/Main';
-import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <div className="Layout">
-        <Header />
+      <Layout>
         <Main />
-        <Footer />
-      </div>
+      </Layout>
     </div>
   );
 }

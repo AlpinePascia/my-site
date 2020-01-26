@@ -1,14 +1,14 @@
 @import '../../styles/vars';
 
-.Footer {
+.root {
   background-color: $dark-blue-grey;
 }
 
-.theme-light .Footer {
-  background-color: $grey_fb;
-}
+// .theme-light .Footer {
+//   background-color: $grey_fb;
+// }
 
-.FooterContent {
+.content {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.875rem;
@@ -18,38 +18,38 @@
   padding: 0.625rem 0.75rem;
 }
 
-.FooterLink {
+.link {
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
   height: 2.25rem;
   margin-right: 1.25rem;
   width: 2.25rem;
-
-  &.Github {
-    background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
-  }
-  
-  &.Telegram {
-    background-image: url('../../media/t_logo.png');
-  }
 }
 
-.theme-light .FooterLink.Github {
-  background-image: url('../../media/GitHub-Mark-120px-plus.png');
+.githubLink {
+  background-image: url('../../media/GitHub-Mark-Light-120px-plus.png');
 }
 
-.FooterSection {
+.telegramLink {
+  background-image: url('../../media/t_logo.png');
+}
+
+// .theme-light .FooterLink.Github {
+//   background-image: url('../../media/GitHub-Mark-120px-plus.png');
+// }
+
+.section {
   align-items: center;
   color: $super-light-slate-grey;
   display: flex;
 }
 
-.theme-light .FooterSection {
-  color: $light_slate_grey;
-}
+// .theme-light .FooterSection {
+//   color: $light_slate_grey;
+// }
 
-.FooterSectionLabel {
+.updateLabel {
   font-weight: lighter;
   margin-right: 0.5rem;
 }

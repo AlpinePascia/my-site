@@ -1,15 +1,11 @@
 import React from 'react';
-import './Main.scss';
+import { root } from './Main.module.scss';
+import UnderConstruction from '../UnderConstruction';
 
-const Main = () => {
-  return (
-    <main className="Main">
-      <div className="UnderConstruction">
-        <div className="UnderConstructionTextWrapper"><div className="UnderConstructionText">Work in progress</div></div>
-        {/* <div className="Crane">&nbsp;🏗</div> */}
-      </div>
-    </main>
-  );
-};
+const Main = () => (
+  <main className={root}>
+    <UnderConstruction />
+  </main>
+);
 
 export default Main;

@@ -1,11 +1,11 @@
 @import '../../styles/vars.scss';
 
-.LanguageSwitch {
+.root {
   display: flex;
   font-size: 1.125rem;
 }
 
-.LanguageLink {
+.link {
   cursor: pointer;
   
   &.active {
@@ -14,10 +14,10 @@
   }
 }
 
-.theme-light .LanguageLink.active {
-  color: $deep-blue;
-}
+// .theme-light .link.active {
+//   color: $deep-blue;
+// }
 
-.LanguageLinkDivider {
+.divider {
   margin: 0 0.25rem;
 }

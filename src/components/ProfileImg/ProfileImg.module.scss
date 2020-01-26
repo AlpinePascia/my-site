@@ -1,13 +1,13 @@
 @import '../../styles/vars.scss';
 
-.ProfileImgContainer {
+.root {
   border-radius: 50%;
   height: 3.375rem;
   overflow: hidden;
   width: 3.375rem;
 }
 
-.FullScreenContainer {
+.fullScreenContainer {
   align-items: center;
   background: $backdrop;
   display: flex;
@@ -20,13 +20,13 @@
   z-index: 10;
 }
 
-.ProfileImg {
+.img {
   height: auto;
   object-position: 0 -0.4rem;
   max-width: 100%;
 }
 
-.FullScreenContainer .ProfileImg {
+.fullScreenContainer .img {
   object-position: unset;
   
   @media(min-width: $desktop) {
